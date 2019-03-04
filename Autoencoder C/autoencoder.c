@@ -114,7 +114,6 @@ void matmul_outer(double **w, double *v, double *o, int row, int col){
 int main()
 {
     int  i, j;
-    printf("FARTS in my mouth \n");
     double *input = (double *)malloc(input_size*sizeof(double));
     double *hidden = (double *)malloc(hidden_size*sizeof(double));
     double *hidden2 = (double *)malloc(hidden_size*sizeof(double));
